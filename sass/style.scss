@@ -1,8 +1,17 @@
 @import 'custom-fonts';
 
 $font-family-sans-serif: 'Oxygen', sans-serif;
+$onyx: #353839;
+$greyishBlue: lighten($onyx, 60%);
+$columbiaBlue: #B9D9EB;
+$paleAzure: #87D3F8;
+$timberwolf: #DBD7D2;
+$body-bg: $timberwolf;
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
+@import 'accessibility';
+@import 'general';
 @import 'cv-header';
+@import 'cv-main';
 @import 'cv-footer';

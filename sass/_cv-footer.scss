@@ -1,3 +1,13 @@
 .cv-footer {
-    background-color: #36454f;
+    background-color: $onyx;
+    color: $greyishBlue;
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    a {
+        color: $paleAzure;
+    }
 }

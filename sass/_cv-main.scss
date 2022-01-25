@@ -1,0 +1,12 @@
+.cv-main {
+    .skills-list {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-flow: wrap;
+
+        li {
+            padding: 0.6em;
+        }
+    }
+}
