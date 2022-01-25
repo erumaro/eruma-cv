@@ -1,0 +1,8 @@
+@import 'custom-fonts';
+
+$font-family-sans-serif: 'Oxygen', sans-serif;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+@import 'cv-header';
+@import 'cv-footer';
